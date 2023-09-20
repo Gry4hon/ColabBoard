@@ -1,6 +1,6 @@
-import "./ThreeCards.css";
+import "./component-styles/ThreeCards.css";
 
-function Message() {
+function ThreeCards() {
   return (
     <>
       <div className="card-container">
@@ -26,4 +26,4 @@ function Message() {
   );
 }
 
-export default Message;
+export default ThreeCards;

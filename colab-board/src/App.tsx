@@ -1,17 +1,11 @@
-import RowOfThree from "./ThreeCards";
-import Nav from "./NavBar";
+//import Nav from "./componets/NavBar";
+import Tutorial from "./componets/Mosh";
 
 function App() {
   return (
     <>
       <div>
-        <Nav />
-        <RowOfThree />
-        <RowOfThree />
-        <RowOfThree />
-        <RowOfThree />
-        <RowOfThree />
-        <RowOfThree />
+        <Tutorial />
       </div>
     </>
   );
