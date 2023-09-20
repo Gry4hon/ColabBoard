@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-container{
+    width: auto;
+    height: 80px;
+    background-color: #5e575d;
+}
+
+.nav-items{
+    width: 60%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-items img{
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+    align-self: last baseline;
+}
+
+.nav-links{
+    display: flex;
+    text-align: right;
+    
+}

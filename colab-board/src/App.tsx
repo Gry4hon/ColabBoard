@@ -1,7 +1,20 @@
-import NavBar from './components/NavBar'
+import RowOfThree from "./ThreeCards";
+import Nav from "./NavBar";
 
-function App(){
-  return <div><NavBar /></div>;
+function App() {
+  return (
+    <>
+      <div>
+        <Nav />
+        <RowOfThree />
+        <RowOfThree />
+        <RowOfThree />
+        <RowOfThree />
+        <RowOfThree />
+        <RowOfThree />
+      </div>
+    </>
+  );
 }
 
 export default App;
