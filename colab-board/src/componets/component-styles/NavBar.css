@@ -20,7 +20,7 @@
 .navbar-brand-custom{
     text-decoration: none;
     font-size: 18px;
-    color: aqua;
+    color: #bbff00;
     margin-right: 10px;
 }
 
@@ -40,6 +40,21 @@
 
 .nav-link-custom a:hover{
     color: wheat;
+}
+
+.navbar-toggler-custom{
+    background-color: transparent;
+    padding: 10px 10px;
+    border: solid 2px #641a1a;
+    border-radius: 10%;
+}
+
+.navbar-toggler-custom:hover{
+    background-color: #641a1a1f;
+}
+
+.toggler-item-custom{
+    color:#641a1a;
 }
 
 
