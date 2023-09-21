@@ -1,9 +1,8 @@
 //import Nav from "./componets/NavBar";
 import "bootstrap/dist/css/bootstrap.css";
 
-import Alert from "./componets/Alert";
-import ButtonComp from "./componets/ButtonComp";
 import { useState } from "react";
+import HeaderBar from "./componets/NavBar";
 //import Tutorial from "./componets/Mosh";
 //import NumberClickerButton from "./componets/NumberClickerButton";
 //import Practice from "./componets/PropPractice"
@@ -24,14 +23,10 @@ function App() {
   }
   */
 
-  const [alertState, setAlertState] = useState(false);
-
-
   return (
     <>
       <div>
-        {<Alert /> && alertState}
-        <ButtonComp onButtonPressed={() => setAlertState(true)}> You Just Won $$$</ButtonComp>
+        <HeaderBar />
       </div>
     </>
   );
