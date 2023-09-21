@@ -10,6 +10,37 @@
     margin-top: 19px;
 }
 
+.user-info img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.navbar-brand-custom{
+    text-decoration: none;
+    font-size: 18px;
+    color: aqua;
+    margin-right: 10px;
+}
+
+.navbar-brand-custom:hover{
+    color: wheat;
+}
+
+.navbar-custom{
+    background-color: #ca8b8b;
+    color:aliceblue;
+}
+
+.nav-link-custom  a{
+    color: aqua;
+    font-size: 18px;
+}
+
+.nav-link-custom a:hover{
+    color: wheat;
+}
 
 
 
