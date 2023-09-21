@@ -29,7 +29,10 @@ function MoshTutorialStuff() {
   //click events and hooks
   const vechicleTypes = ["plane", "trains", "trucks", "cars"];
 
-  //Hooks are kinda like getters and setters lol
+  //Hooks are setters
+  //The selectedRow variable is set equal to 0 by useState
+  //Then the setSelectedRow sets the value passed into the selectedRow variable
+
   const [selectedRow, setSelectedRow] = useState(0);
 
   const checkSelectedRow = (index: number) => {
